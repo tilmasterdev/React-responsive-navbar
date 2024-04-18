@@ -17,7 +17,7 @@ export const CodeIcon = (props) => (
   </svg>
 );
 
-export const HamburgetMenuOpen = (props) => (
+export const HamburgetMenuClose = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
@@ -37,7 +37,7 @@ export const HamburgetMenuOpen = (props) => (
   </svg>
 );
 
-export const HamburgetMenuClose = (props) => (
+export const HamburgetMenuOpen = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
