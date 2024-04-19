@@ -1,6 +1,8 @@
 import "./App.css";
-import ContactForm from "./components/ContactForm";
+import ContactForm from "./components/Contact";
+import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
+import Testimonials from "./components/Testimonials";
 
 
 function App() {
@@ -8,8 +10,9 @@ function App() {
     <>
      <NavBar />
      <ContactForm/>
-
-      
+     <Testimonials/>
+     <ContactForm/>
+     <Footer/>
     </>
   );
 }

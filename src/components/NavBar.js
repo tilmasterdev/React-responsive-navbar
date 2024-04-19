@@ -8,7 +8,6 @@ const NavBar = () => {
     <>
       <div className="header">
         <div className="left">
-          {/* <img src="/path/to/your/logo.png" alt="Company Logo" className="logo" /> */}
           <div className="company-info">
             <h1>Tallyaddons</h1>
             <p>Lorem ipsum dolor sit amet consectetur.</p>

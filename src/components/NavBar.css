@@ -3,8 +3,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: whitesmoke;
-  color: #242b36;
+  background-color: #242b36;
+  color: whitesmoke;
 }
 
 .left {
@@ -19,11 +19,14 @@
 }
 
 .company-info> h1{
-  font-size: 1.2rem;
+  font-size: 2rem;
+  font-weight: bolder;
+
 }
 
 .company-info> p{
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  font-weight: bolder;
 }
 
 .right {
@@ -54,5 +57,13 @@
 @media (max-width: 768px) {
   .company-info {
     font-size: 0.8rem; /* Reduce font size for mobile */
+  }
+
+  .company-info> h1{
+    font-size: 1.5rem;
+  }
+
+  .company-info> p{
+    font-size: 0.6rem;
   }
 }
